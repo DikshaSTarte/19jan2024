@@ -1,0 +1,230 @@
+apt-get update
+    2  wget -qO - https://www.mongodb.org/static/pgp/server-5.0.asc | sudo apt-key add -
+    3  echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/5.0 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-5.0.list
+    4  sudo apt update
+    5  sudo apt install -y mongodb-org
+    6  sudo systemctl start mongod
+    7  sudo systemctl enable mongod
+    8  sudo systemctl status mongod
+    9  sudo systemctl start mongod
+   10  use admin
+   11  sudo apt install nodejs
+   12  sudo apt install npm
+   13  sudo npm install -g @angular/cli
+   14  sudo apt install nginx
+   15  sudo nano /etc/nginx/sites-available/your-app
+   16  sudo nano /etc/nginx/sites-available/onlinenode
+   17  ls
+   18  git clone git@gitlab.com:group19343802/onlinenode.git
+   19  ls
+   20  git@gitlab.com:group19343802/onlinenode.git
+   21  git clone git@gitlab.com:group19343802/onlinenode.git
+   22  git clone https://gitlab.com/group19343802/onlinenode.git
+   23  git clone git@gitlab.com:group19343802/onlinenode.git
+   24  ls
+   25  git clone git@gitlab.com:group19343802/onlinenode.git
+   26  git clone https://gitlab.com/group19343802/onlinenode.git
+   27  ls
+   28  cd onlinenode
+   29  ls
+   30  sudo nginx -t
+   31  sudo systemctl restart nginx
+   32  npm install
+   33  npm start
+   34  cd..
+   35  cd ..
+   36  npm restart
+   37  npm install
+   38  npm restart
+   39  npm install
+   40  npm -v
+   41  install node
+   42  node -v
+   43  sudo npm install -g @angular/cli
+   44  sudo apt-get update
+   45  ng --version
+   46  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+   47  source ~/.bashrc
+   48  source ~/.zshrc
+   49  nvm install 14.17.5  # Replace with the desired version
+   50  nvm use 14.17.5
+   51  ng --version
+   52  sudo apt-get update
+   53  ng --version
+   54  nvm install 18.13
+   55  sudo apt-get update
+   56  nvm use 18.13
+   57  ng --version
+   58  npm install -g @angular/cli
+   59  npm install -g npm@10.3.0
+   60  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.0/install.sh | bash
+   61  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/18.13/install.sh | bash
+   62  sudo nano /etc/nginx/sites-available/your-app
+   63  sudo ln -s /etc/nginx/sites-available/your-app /etc/nginx/sites-enabled
+   64  sudo nginx -t
+   65  sudo systemctl restart nginx
+   66  sudo nano /etc/nginx/sites-available/your-app
+   67  sudo systemctl restart nginx
+   68  sudo nginx -t
+   69  sudo nano /etc/nginx/sites-available/your-app
+   70  sudo nginx -t
+   71  cd /var/www/
+   72  ls
+   73  cd html
+   74  ls
+   75  cd ..
+   76  ls
+   77  mkdir onlinenodefrontend/
+   78  ls
+   79  chmod +777 onlinenodefrontend
+   80  ls
+   81  nginx status
+   82  systemctl nginx status
+   83  sudo systemctl nginx status
+   84  sudo dpkg -l | grep nginx
+   85  sudo systemctl status nginx
+   86  sudo nano /etc/nginx/sites-available/your-app
+   87  apt-get update
+   88  ls
+   89  mkdir frontend-backend
+   90  chmod 777 frontend-backend
+   91  ls
+   92  chmod 777 root/
+   93  cd ..
+   94  chmod 777 root/
+   95  ls
+   96  cd root
+   97  ls
+   98  sudo systemctl enable mongodb
+   99  ls
+  100  cd frontend-backend
+  101  ls
+  102  cd ..
+  103  ls
+  104  cd..
+  105  ls
+  106  cd ..
+  107  ls
+  108  cd root
+  109  ls
+  110  mkdir myapp
+  111  chmod 777 myapp
+  112  ls
+  113  rm frontend-backend
+  114  rm -r frontend-backend
+  115  cd myapp
+  116  cd ..
+  117  ls
+  118  rm -r myapp/
+  119  ls
+  120  cd ..
+  121  ls
+  122  cd home
+  123  ls
+  124  cd ubuntu/
+  125  ls
+  126  cd..
+  127  cd ..
+  128  ls
+  129  cd ..
+  130  ls
+  131  cd root/
+  132  ls
+  133  cd onlinenode
+  134  ls
+  135  cd ..
+  136  ls
+  137  cd ..
+  138  ls
+  139  cd home/
+  140  ls
+  141  cd ubuntu/
+  142  ls
+  143  cd onlineNode/
+  144  ls
+  145  nodemon start
+  146  cd ..
+  147  ls
+  148  cp onlineNode /root/
+  149  ls
+  150  cp -r onlineNode /root/
+  151  ls
+  152  cd..
+  153  ls
+  154  cd ..
+  155  ls
+  156  cd root/
+  157  ls
+  158  nvm --version
+  159  npm --version
+  160  nodemon start
+  161  npm install -g nodemon
+  162  nodemon start
+  163  ls
+  164  cd onlineNode
+  165  ls
+  166  npm install -g nodemon
+  167  nodemon start
+  168  ls
+  169  cd ..
+  170  ls
+  171  cd ..
+  172  ls
+  173  cd home/
+  174  ls
+  175  cd ubuntu/
+  176  ls
+  177  cd onlineNode
+  178  ls
+  179  npm install -g nodemon
+  180  nodemon start
+  181  apt-get update
+  182  sudo apt-get update
+  183  node -v
+  184  npm -v
+  185  cd  /etc/nginx/sites-available/your-app
+  186  cd /etc/nginx/sites-available/your-app
+  187  cd /etc/
+  188  ls
+  189  cd nginx/
+  190  ls
+  191  cd sites-available
+  192  ls
+  193  cd your-app
+  194  vi your-app
+  195  restart nginx
+  196  sudo systemctl restart nginx
+  197  sudo systemctl nginx status
+  198  sudo systemctl status nginx
+  199  History
+  200  history
+  201  cd ..
+  202  ..
+  203  sudo -i
+  204  # Install OpenJDK 11
+  205  sudo apt-get install -y openjdk-11-jdk
+  206  # Install Apache Tomcat
+  207  sudo apt-get install -y tomcat9
+  208  sudo cp /path/to/your/app.war /var/lib/tomcat9/webapps/
+  209  sudo systemctl start tomcat9
+  210  sudo systemctl tomcat9 status
+  211  sudo systemctl enable tomcat9
+  212  # Install Apache Tomcat
+  213  sudo apt-get install -y tomcat9
+  214  sudo apt-get install maven
+  215  java --version
+  216  mvn --version
+  217  ls
+  218  apt-get update
+  219  history
+  220  sudo systemctl status nginx
+  221  ls
+  222  cd onlineNode
+  223  ls
+  224  ls
+  225  npm install -g nodemon
+  226  sudo cp /path/to/your/app.war /var/lib/tomcat9/webapps/
+  227  sudo nano /etc/nginx/sites-available/myapp
+  228  sudo nano /etc/nginx/sites-available/myapp
+  229  ls
+  230  rm -r onlineNode
