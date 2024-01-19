@@ -1,0 +1,29 @@
+/etc/nginx/sites-available/onlinenode    GNU nano 4.8                              /etc/nginx/sites-available/onlinenode                               Modified
+
+require('dotenv').config();
+const port = process.env.PORT || 3000
+const express = require('express');
+const app = express();
+const cors = require('cors');
+const router = require("./routes/routes");
+
+const corsOptions = {
+  origin: '*',
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  optionsSuccessStatus: 200 // Some legacy browsers (IE11, various SmartTVs) choke on 204
+};
+
+app.use(express.static('online-ui'));
+  app.use(cors(corsOptions));
+  app.use(express.json());
+app.use('/',router)
+
+  const server = app.listen(port, () => {
+    console.log('Server is listening at port 5000');
+  });
+
+
+
+
+
+
